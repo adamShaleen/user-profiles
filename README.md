@@ -17,10 +17,10 @@ Require your dependencies and initialize express. Run the `app.use` method on `b
 
 --------
 
-Once everything is working we can set up the our the first of our new dependencies: CORS. The most simple usage of CORS is to simply `app.use(cors())`. This
+Once everything is working we can set up the first of our new dependencies: CORS. The most simple usage of CORS is to simply `app.use(cors())`. This
 will allow cross-origin requests from any domain, across all of your endpoints. This would accomplish roughly the same thing as our custom `addHeaders`
 middleware from yesterday. The primary drawback to this method is the insecurity; any domain can freely make requests to our server. So we will be configuring
-CORS to whitelist only a specific origin.
+CORS to whitelist only specific origin.
 
 To do this we need to create a new object in our `server.js` containing some simple configuration information. Note that you will need to replace the port
 number with your selected port number.

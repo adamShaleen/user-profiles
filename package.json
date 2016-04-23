@@ -1,0 +1,27 @@
+{
+  "name": "user-profiles",
+  "version": "1.0.0",
+  "description": "First front to back app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamShaleen/user-profiles.git"
+  },
+  "author": "Adam Shaleen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamShaleen/user-profiles/issues"
+  },
+  "homepage": "https://github.com/adamShaleen/user-profiles#readme"
+}
